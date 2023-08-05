@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal MM</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="barra">
+        <nav>
+            <img src="logomdmc.png" alt="" width="100">
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">SOBRE MI</a></li>
+                <li><a href="#">PORTAFOLIO</a></li>
+                <li><a href="#contactar">CONTACTAR</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="detalles">
+        <h1>Bienvenidos a mi portafolio sobre <span id="foto">Fotografia</span></h1>
+        <br>
+        <p> Soy Milagros Moles, una apasionada fotógrafa 
+            <br>especializada en capturar la belleza automovilista.
+            <br> Ya sea en un circuito de carreras, en una sesión de fotos 
+            <br>personalizada o en eventos automovilísticos, mi objetivo es 
+            <br>capturar la velocidad, la tecnología y la estética de estos
+            <br>impresionantes vehículos.
+        </p>
+        <a href="https://www.instagram.com/mdmcars/?hl=es" id="ig">INSTAGRAM</a>
+    </div>
+    <div class="imagen">
+        <img src="logomdm.png" class="logo">
+
+    </div>
+    <form>
+        <h2 id="contactar"> Contactar </h2>
+        <label>Para: <input type="text" name="para"required></label> <br>
+        <label>Temática: <select name="tematica" required> <br>
+            <option value="-- Elige un tema --" selected disabled>-- Elige un tema --</option>
+            <option value="Consulta">Consulta</option>
+            <option value="Propuesta">Propuesta </option>
+            <option value="Reporte">Evento </option>
+          </select></label> <br>
+          <label>Asunto: <input type="text" name="asunto "required placeholder="Agregar asunto"
+            ></label> <br>
+                    <label>Cuerpo: <textarea name="tematica" rows="2" cols="25" required placeholder="Escriba aquí..."
+             ></textarea>
+                        <input type="submit" value="Enviar"></label>
+            
+    </form>
+</body>
+</html>

@@ -1,0 +1,99 @@
+html { 
+    background-image: url(purple-blur-gradient_2560x1440_xtrafondos.com.jpg) ;
+}
+
+
+* {
+    margin: 0 ;
+    padding: ;
+    box-sizing: borde-box;
+    font-family: sans-serif;
+}
+
+.barra{
+    position: relative;
+    width: 100%;
+    height: 100;
+    background-color: rgb(188, 136, 255);
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block ;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(191, 138, 204);
+}
+
+.detalles{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+form{
+    margin-left: 8%;
+    margin-top: 13%;   
+    margin-bottom: 10%;
+}
+
+.detelles h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px ;
+}
+
+#foto {
+    color: blueviolet;
+}
+
+.detelles p {
+    line-height: 22px;
+}
+
+#ig{
+    background: #212121;
+    padding: 10px 18px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0 ;
+    border-radius: 5px;
+}
+
+.imagen{
+    width: 45%;
+    height: 80%
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.imagen img{
+    float: left;
+    height: 50%;
+    position: absolute;
+    left: 60%;
+    bottom: 0;
+    margin-bottom: 10%;
+}
+
+.imagen:hover .logo {
+    bottom: 40px;
+}
